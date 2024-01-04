@@ -1,0 +1,39 @@
+{
+	"name": "@fronttobackdev/workshop-scripts",
+	"description": "Scripts for running Front to Back workshops",
+	"version": "0.0.0",
+	"author": "Chance Strickland <hi@chance.dev> (https://chance.dev)",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fronttobackdev/workshop-scripts.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fronttobackdev/workshop-scripts/issues"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write '**/*.{md,js,jsx,ts,tsx,json}'"
+	},
+	"dependencies": {
+		"cross-spawn": "^7.0.3"
+	},
+	"devDependencies": {
+		"@types/cross-spawn": "^6.0.6",
+		"@types/node": "^20.10.6",
+		"@typescript-eslint/eslint-plugin": "^6.17.0",
+		"@typescript-eslint/parser": "^6.17.0",
+		"eslint": "^8.56.0",
+		"eslint-config-chance": "^4.0.0",
+		"eslint-import-resolver-node": "0.3.9",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-import": "^2.29.1",
+		"prettier": "^3.1.1",
+		"typescript": "^5.3.3"
+	},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	}
+}
