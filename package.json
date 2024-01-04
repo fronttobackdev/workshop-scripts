@@ -1,7 +1,7 @@
 {
 	"name": "@fronttobackdev/workshop-scripts",
 	"description": "Scripts for running Front to Back workshops",
-	"version": "0.0.0",
+	"version": "0.0.2",
 	"author": "Chance Strickland <hi@chance.dev> (https://chance.dev)",
 	"license": "MIT",
 	"type": "module",
@@ -12,9 +12,18 @@
 	"bugs": {
 		"url": "https://github.com/fronttobackdev/workshop-scripts/issues"
 	},
+	"files": [
+		"bin",
+		"lib",
+		"LICENSE.md",
+		"dev.js"
+	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"format": "prettier --write '**/*.{md,js,jsx,ts,tsx,json}'"
+	},
+	"bin": {
+		"f2b": "./bin/f2b.js"
 	},
 	"dependencies": {
 		"cross-spawn": "^7.0.3"
